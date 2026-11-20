@@ -23,7 +23,7 @@
         .tarjeta {
             background-color: #ffffff;
             width: 100%;
-            max-width: 420px;
+            max-width: 480px;
             padding: 36px 30px;
             border-radius: 18px;
             box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
@@ -61,6 +61,49 @@
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(29, 78, 216, 0.2);
         }
+        .seccion {
+            display: none;
+            margin-top: 22px;
+            padding: 20px;
+            background-color: #f8fafc;
+            border: 1px solid #cbd5e1;
+            border-radius: 12px;
+            text-align: left;
+            line-height: 1.5;
+        }
+        .seccion:target {
+            display: block;
+        }
+        .seccion h2 {
+            font-size: 1.15rem;
+            color: #1d4ed8;
+            margin-bottom: 8px;
+        }
+        .seccion h3 {
+            font-size: 1rem;
+            color: #102a43;
+            margin-bottom: 4px;
+        }
+        .seccion p {
+            font-size: 0.92rem;
+            color: #334e68;
+            margin-bottom: 8px;
+        }
+        .seccion ul {
+            padding-left: 20px;
+            font-size: 0.92rem;
+            color: #334e68;
+        }
+        .seccion li {
+            margin-bottom: 4px;
+        }
+        .cerrar {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            color: #627d98;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -76,6 +119,73 @@
         <a href="#idiomas">idiomas</a>
         <a href="#interes">interés</a>
     </nav>
+
+    <div id="encabezado" class="seccion">
+        <h2>Rosiely Martínez Bandala</h2>
+        <p>Estudiante de Ingeniería de software / Perfil profesional</p>
+        <p>Correo: Rosiely12555@gmail.com | GitHub: RosielyMartinez</p>
+        <a href="#" class="cerrar">Ocultar sección</a>
+    </div>
+
+    <div id="experiencia" class="seccion">
+        <h2>Experiencia laboral</h2>
+        <h3>Servicio social - Preparatoria</h3>
+        <p><strong>Escuela de Bachilleres Oficial de Río Blanco</strong> | 2024</p>
+        <ul>
+            <li>Apoyo en actividades administrativas y organización de documentos.</li>
+        </ul>
+        <a href="#" class="cerrar">Ocultar sección</a>
+    </div>
+
+    <div id="educacion" class="seccion">
+        <h2>Educación</h2>
+        <h3>Estudiante de Ingeniería de software</h3>
+        <p><strong>Universidad Veracruzana</strong> | Actualmente</p>
+        <a href="#" class="cerrar">Ocultar sección</a>
+    </div>
+
+    <div id="habilidades" class="seccion">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Uso de terminal</li>
+            <li>Trabajo en equipo</li>
+            <li>Adaptabilidad</li>
+            <li>Resolución de problemas</li>
+            <li>Gestión de documentos</li>
+            <li>Flexibilidad</li>
+            <li>Comunicación efectiva</li>
+            <li>Responsabilidad</li>
+            <li>Puntualidad y compromiso</li>
+            <li>Conocimientos de administración de recursos humanos</li>
+        </ul>
+        <a href="#" class="cerrar">Ocultar sección</a>
+    </div>
+
+    <div id="certificados" class="seccion">
+        <h2>Certificados</h2>
+        <ul>
+            <li>Control de versiones con Git y GitHub (2026)</li>
+        </ul>
+        <a href="#" class="cerrar">Ocultar sección</a>
+    </div>
+
+    <div id="idiomas" class="seccion">
+        <h2>Idiomas</h2>
+        <ul>
+            <li>Español (Nativo)</li>
+            <li>Inglés (Básico)</li>
+        </ul>
+        <a href="#" class="cerrar">Ocultar sección</a>
+    </div>
+
+    <div id="interes" class="seccion">
+        <h2>Interés</h2>
+        <ul>
+            <li>Desarrollo de software</li>
+            <li>Bases de datos</li>
+        </ul>
+        <a href="#" class="cerrar">Ocultar sección</a>
+    </div>
 </div>
 
 </body>
